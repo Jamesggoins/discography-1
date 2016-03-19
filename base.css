@@ -1,0 +1,94 @@
+﻿/*Developer: Brittany Killgore
+ * Copyright: 2016, Brittany Killgore, Francis Tuttle Web Design & Development
+ * 3/14/2016*/
+
+/*Color Palette
+============
+    #000000 - Black
+    #FFFFFF - White*/
+
+body {
+    background-image: url("http://www.liveinspector.gr/m/images/photos/2012/11/07/GASMASK2009_jpg_522x363_q85.jpg");
+    background-color: #000;
+    font: 40px;
+    color : #FFF;
+}
+
+header {
+    text-align: center;
+}
+
+.header img {
+    margin: auto;
+    max-width: 100%;
+}
+
+a {
+    color: #fff;
+}
+
+legend {
+    color: #fff;
+}
+
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+   
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    
+ }
+
+ h2 {
+    font-family: 'Comfortaa', cursive;
+ }
+
+.three-fourths {
+	width: 73%;
+	padding-left: .635em;
+}
+
+.wrap {
+    max-width: 75%;
+    margin: auto;
+    background-color: #000;
+    padding: 18px 30px 20px 30px; 
+    margin-top: -10px;
+    box-shadow: 0px 6px 15px silver;
+    min-height: 100%;
+}
+
+.wrap2 {
+    max-width: 75%;
+    margin: auto;
+    background-image: url("topborder.png");
+    padding: 30px;
+    margin-top: -10px;
+    box-shadow: 0px 6px 15px silver;
+    min-height: 60px;
+}
+
+footer p {
+    text-decoration: none;
+}
+
+.footer {
+    border-top: 1px solid silver;
+    text-align: center;
+    font-size: small;
+    clear: left;
+}
+
+
+/* For desktop: */
+@media only screen and (max-width: 100%) {
+    
+}
+    
+    /* For mobile phones: */
+   .wrap, .wrap2 {
+        width: 100%;
+    }
