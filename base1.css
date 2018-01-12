@@ -1,0 +1,199 @@
+/*--Table of Contents
+Fonts: font-family: 'Forum', cursive;
+font-family: 'Carrois Gothic', sans-serif;
+
+--*/
+/*--General Styling--*/
+html {
+    margin: 0px;
+    padding: 0px;
+    background: url("bandana.png");
+}
+body{
+    margin: auto;
+    display: block;
+    width: 100%;
+    font-family: 'Carrois Gothic', sans-serif;
+    background: rgba(0,0,0,0.85);
+    background-size: cover;
+    color: #999;
+    font-size: 1.1em;
+}
+h1 {
+    font-size: 2.5em;
+    font-family: 'Forum', cursive;
+    background: #0a2826;
+    padding: 0px 10px;
+    width: 32%;
+}
+p {
+    width: 95%;
+    margin: auto;
+}
+h2 {
+    font-size: 1.75em;
+    font-family: 'Forum', cursive;
+}
+
+a {
+    text-decoration: none;
+    visibility: hidden;
+}
+.three-fourths img {
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    float: right;
+}
+/*--Title Styling--*/
+.header a {
+    visibility: visible;
+}
+img[src="prlogo.png"] {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+img[src="http://i642.photobucket.com/albums/uu144/THEARM_2009/SicksideArmy.jpg"]{
+    width: 300px;
+}
+/*--About Styling--*/
+img[src="http://www.liveinspector.gr/m/images/photos/2012/11/07/ThePsychoRealmPsycho.jpg"] {
+    visibility: hidden;
+    width: 0%;
+}
+/*--Sick Side Styling--*/
+/*--Albums Styling--*/
+img[src="http://www.freecodesource.com/album-cover/41-OZoUnraL/Psycho-Realm-Psycho-Realm.jpg"], img[src="http://respecta.net/uploads/posts/2010-02/1265190898_cover.jpg"], img[src="http://www.urbankingsinc.com/store/imgsize.php?w=350&h=344&constrain=1&img=images/uploads/img0586.jpg"], img[src="http://cps-static.rovicorp.com/3/JPG_400/MI0000/710/MI0000710270.jpg?partner=allrovi.com"] {
+}
+
+/*--Contact Styling--*/
+form {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 1.45em;
+}
+label {
+    font-size: 0.8em;
+    display: inline;
+}
+#first-name, #last-name, 
+#city, #address, #state, 
+#zip-code, #birthday, #email, 
+#comments {
+    display: block;
+    margin: auto;
+}
+#first-name {
+}
+#last-name {
+}
+input[type=text], 
+input[type=email] {
+    width: 90%;
+    height: 40px;
+    margin: 0px;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#state {
+    width: 40%;
+    height: 40px;
+    font-size: 0.8em;
+}
+#comments {
+    height: 100px;
+}
+button {
+    background: #0a2826;
+    color: #999;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-size: 0.8em;
+    padding: 12px 42px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.footer {
+    margin: auto;
+    font-size: 0.75em;
+}
+/*--Media Queries*/
+/*--Medium Devices--*/
+@media only screen and (min-width: 501px) and (max-width : 732px) {
+    body{
+    margin: auto;
+    width: 100%;
+    background-size: cover;
+    color: #999;
+    font-size: 1.1em;
+}
+h1 {
+    font-size: 2.25em;
+    font-family: 'Forum', cursive;
+    background: #0a2826;
+    padding: 0px 10px;
+    width: 90%;
+}
+h2 {
+    font-size: 1.75em;
+    font-family: 'Forum', cursive;
+}
+a {
+    text-decoration: none;
+    visibility: hidden;
+}
+.three-fourths img {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 45px;
+    clear: both;
+}
+form {
+    width: 100%;
+    margin-top: 100px;
+    font-size: 1.45em;
+}
+}
+/*--Small Devices--*/
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+    html {
+        width: 100%;
+    }
+    img[src="prlogo.png"] {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    h1{
+        font-size: 1.9em;
+        width: 100%;
+        padding: none;
+    }
+    h2 {
+        visibility: hidden;
+    }
+    .three-fourths img {
+        width: 100%;
+        float: none;
+        margin: 0px;
+    }
+    img[src="http://i642.photobucket.com/albums/uu144/THEARM_2009/SicksideArmy.jpg"]{
+        width: 100%;
+    }
+    input[type=text], 
+    input[type=email] {
+        width: 100%;
+    }
+    form {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 1.45em;
+    }
+}
